@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: greenyellow;
+    line-height: 60px;
+}
+
+.header-left ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-left ul li{
+    margin-left: 30px;
+}
+
+.header-left ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+.header-right ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-right ul li {
+    margin-right: 30px;
+}
+
+.header-right ul li a{
+    color: gray;
+}
+
+.main-container{
+    width: 100%;
+    display: flex;
+}
+
+.section-left{
+    width: 25%;
+    background-color: rgb(231, 198, 116);
+}
+
+.side-links{
+    margin: 20px;
+}
+
+.side-links ul{
+    list-style-type: none;
+}
+
+.side-links ul li{
+    border-bottom: 1px solid gray;
+    margin-top: 20px;
+}
+
+.side-links ul li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+.side-image{
+    margin: 20px;
+}
+
+.side-image img{
+    width: 100%;
+}
+
+.section-right{
+    width: 75%;
+}
+
+.right-top{
+    margin: 10px;
+}
+
+.heading{
+    margin: 15px 0px 15px 0px;
+}
+
+.heading h3{
+    font-weight: bolder;
+    color: black;
+    font-size: 25px;
+}
+
+.right-para{
+    text-align: justify;
+    font-weight: bold;
+}
+
+.right-bottom{
+    margin: 10px;
+}
+
+.products-heading{
+    margin: 20px 0px 20px 0px;
+}
+
+.card-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 32%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.product-tit{
+    margin: 15px 0px 15px 0px;
+}
+
+.product-tit h3{
+    font-weight: bold;
+}
+
+.product-des p{
+    font-weight: bold;
+    text-align: justify;
+}
+
+.pro-btn{
+    margin: 20px 0px 0px 0px;
+}
+
+.pro-btn a{
+    display: block;
+    border: 1px solid gray;
+    background-color: gray;
+    color: white;
+    width:160px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pro-btn a:hover{
+    border: 1px solid gray;
+    background: transparent;
+    color: gray;
+    font-weight: bold;
+}
+
+footer{
+    background-color: cadetblue;
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+}

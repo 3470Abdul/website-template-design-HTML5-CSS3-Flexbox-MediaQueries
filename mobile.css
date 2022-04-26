@@ -1,0 +1,99 @@
+@media screen and (max-width: 1440px) and (min-width: 3500px)
+{
+    
+} 
+
+@media screen and (max-width: 1024px)
+{
+    .card-row{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        width: 48%;
+        border: 1px solid gray;
+        padding: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .main-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .section-left{
+        width: 100%;
+        background-color: rgb(231, 198, 116);
+    }
+
+    .section-right{
+        width: 100%;
+        order: -1;
+    }
+
+    .header-left ul li{
+        margin-left: 25px;
+    }
+    
+    .header-right ul li {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    header{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header-left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        order: -1;
+    }
+
+
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-right ul li {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .header-left ul li{
+        margin: 0px 10px 0px 10px;
+    }
+
+    .card-row{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        width: 100%;
+        border: 1px solid gray;
+        padding: 10px;
+        margin-top: 10px;
+    }
+}
